@@ -1,17 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route}
-	from 'react-router-dom';
-import Register from './register';
 
 const Heading = () =>
 {
   return(
-    <Router>
+    
     <div>
       <h1 className="ui dividing header" style={{margin:"5px",textAlign: 'center'}}><i className='desktop icon'/>Tech Geek: Affordable Online Courses</h1>
       <div class="ui pointing menu">
-      <a class="item">Home</a>
-      <a class="active item">Courses</a>
+      <a class="item" href='/home'>Home</a>
+      <a class="item" href='/courses'>Courses</a>
       <a class="item" href='/register'>Sign-Up</a>
       <div class="right menu">
       <div class="item">
@@ -23,10 +20,6 @@ const Heading = () =>
   </div>
 </div>
     </div>
-    <Routes>
-      <Route path='/register' element={<Register/>} />
-	</Routes>
-	</Router>
   )
 }
 

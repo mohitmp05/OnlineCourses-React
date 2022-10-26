@@ -1,5 +1,11 @@
+#container{
+	width: 20%;
+	margin-left: 40%;
+}
+
 #test {
-	width: 300px;
+	width: 100%;
+	align-items: center;
 }
 
 #form-segment {

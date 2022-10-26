@@ -3,7 +3,7 @@ import './register.css';
 
 const Register = () =>{
   return(
-    <div>
+		<div id='container'>
 <form id="test" class="ui form" method="POST" action="">
 	<h4 class="ui center aligned top attached header">Please enter your credentials</h4>
 	<div id="form-segment" class="ui center aligned attached segment">
