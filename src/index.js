@@ -16,7 +16,7 @@ const App = () => {
       <Heading />
       <br></br>
       
-      <div className="content">
+      <div className="content" style={{paddingBottom:'60px'}}>
         <Routes>
         <Route path='' element={<Home/>} />
         <Route path='/home' element={<Home/>} />
